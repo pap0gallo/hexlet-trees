@@ -1,2 +1,13 @@
 {
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hexlet-components/php-immutable-fs-trees"
+    }
+  ],
+  "require": {
+    "hexlet/trees": "dev-main"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

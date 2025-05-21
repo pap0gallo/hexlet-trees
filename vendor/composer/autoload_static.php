@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitd751713988987e9331980363e24189ce
 {
+    public static $files = array (
+        '68d663b868a2275de9dac9fa9c766356' => __DIR__ . '/..' . '/hexlet/trees/src/trees.php',
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
