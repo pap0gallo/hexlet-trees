@@ -35,6 +35,7 @@ function getHiddenFilesCount($tree)
     }
     $children = getChildren($tree);
     $hiddenFilesCount = array_map(fn($child) => getHiddenFilesCount($child), $children);
+
     return array_sum($hiddenFilesCount);
 }
 

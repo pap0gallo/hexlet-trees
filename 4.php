@@ -45,6 +45,4 @@ function compressImages($tree)
 
 $newTree = compressImages($tree);
 
-
-
 print_r($newTree);
