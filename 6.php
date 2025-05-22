@@ -39,5 +39,4 @@ function getHiddenFilesCount($tree)
     return array_sum($hiddenFilesCount);
 }
 
-
 print_r(getHiddenFilesCount($tree));
